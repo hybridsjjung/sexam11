@@ -13,7 +13,8 @@ public class App
     public static void main( String[] args )
     {
     	Calculator c = Calculator.getInstance();
-    	c.sum(10, 10);
+    	int sum = c.sum(10, 10);
     	
+    	System.out.println(sum);
     }
 }
